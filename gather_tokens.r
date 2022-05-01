@@ -1,27 +1,15 @@
-library(rvest)
 library(dplyr)
+library(tm)
+library(RedditExtractoR)
 
+reddit_comments_dataframe <- function(input_url) {
+  holding <- get_thread_content(urls = input_url)
+  holding <- cbind.data.frame(holding$comments$timestamp, holding$comments$comment, holding$comments$score) 
+  return(holding)
+}
 
-# page <- read_html("https://www.reddit.com/r/dankmemes/new/")
+dataset <- reddit_comments_dataframe("https://www.reddit.com/r/starcitizen/comments/ufuemg/317_has_made_star_citizen_feel_more_like_a_game/")
 
-# page %>% 
-#  html_nodes("*") %>% 
-#  html_attr("class") %>% 
-#  unique()
-
-# postTime <- page %>%
-#  html_nodes("._3jOxDPIQ0KaOWpzvSQo-1s") %>%
-#  html_text()
-
-page <- read_html("https://www.reddit.com/r/funny/comments/ufwkms/how_to_blow_on_a_turkey_call/")
-
-nodes <- page %>% 
-  html_nodes("*") %>% 
-  html_attr("class") %>% 
-  unique()
-
-nodes
-
-postTime <- page %>%
-  html_nodes("._1VP69d9lk-Wk9zokOaylL") %>%
-  html_text()
+#clean_df <- dataset %>%
+  
+  
