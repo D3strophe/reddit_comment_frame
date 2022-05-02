@@ -1,0 +1,7 @@
+#' Describe the package.
+#'
+#' @name redditsentiment
+#' @import stringr
+#' @docType package
+NULL
+

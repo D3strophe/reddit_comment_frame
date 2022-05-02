@@ -1,0 +1,28 @@
+{
+    "id": "B3A6511D",
+    "path": "D:/Desktop/School/lis-4370-final-project/man/reddit_clean_dataframe.Rd",
+    "project_path": "man/reddit_clean_dataframe.Rd",
+    "type": "r_doc",
+    "hash": "3252605760",
+    "contents": "",
+    "dirty": false,
+    "created": 1651464260157.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1651464313,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1651464313671,
+    "read_only": true,
+    "read_only_alternatives": [
+        "R/reddit_clean_dataframe.R"
+    ]
+}
