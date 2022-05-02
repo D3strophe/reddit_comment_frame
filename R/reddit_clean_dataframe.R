@@ -1,3 +1,14 @@
+#' @title reddit_clean_dataframe()
+#' This function returns a cleaned dataframe ready for sentiment analysis
+#'
+#' @param  input_url optional input, if you don't want to use the reddit_raw_dataframe function
+#' @param dataframe a compatible dataframe that just neesd cleaning applied
+#' @return a cleaned dataframe, 3 columns
+#' @examples
+#' reddit_clean_dataframe("https://www.reddit.com/r/funny/comments/7mjw12/my_cab_driver_tonight_was_so_excited_to_share/")
+#' reddit_clean_dataframe(dataframe)
+#' @name reddit_clean_dataframe
+
 require(dplyr)
 require(RedditExtractoR)
 require(tm)
