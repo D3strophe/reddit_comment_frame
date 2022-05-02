@@ -1,4 +1,4 @@
-library(RedditSentiment)
+library(RedditCommentFrame)
 library(tidyverse)
 library(tidytext)
 
