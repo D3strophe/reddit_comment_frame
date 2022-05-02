@@ -1,10 +1,5 @@
-R Package Template [![Build Status](https://travis-ci.org/robertzk/r-package-template.svg?branch=master)](https://travis-ci.org/robertzk/r-package-template) [![Coverage Status](https://coveralls.io/repos/robertzk/r-package-template/badge.svg?branch=master)](https://coveralls.io/r/robertzk/r-package-template)
-============
+Reddit Sentiment Dataframe Generator
 
-This repository offers a basic template for R packages that already includes
-Travis and [covr](http://github.com/jimhester/covr) integration.
+This package's main purpose is to make sentiment analysis of Reddit comments extremely easy by making the data preparation trivial. 
 
-Simply clone this repository, change the remote, replace the references
-to "r-package-template", and you have a fresh package ready to go!
-
-Don't forget to change the references to "package.name" in the [DESCRIPTION](DESCRIPTION) file, [package file](R/package.name-package.R) and [tests file](tests/test-all.R).
+This is done, by creating providing a simple interface function and taking care of the data wrangling in the background. 
