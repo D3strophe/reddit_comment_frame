@@ -1,6 +1,6 @@
-Package: RedditSentiment
+Package: RedditCommentFrame
 Type: Package
-Title: RedditSentiment (https://github.com/D3strophe/lis-4370-final-project)
+Title: RedditCommentFrame (https://github.com/D3strophe/reddit_comment_frame)
 Description: This package will gather comments into a dataframe, when given the required URL to the reddit thread. 
 Version: 0.1.0
 Author: Kapil Patel <patelk10@usf.edu>
