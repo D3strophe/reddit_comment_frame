@@ -10,7 +10,7 @@ This function returns a cleaned dataframe ready for sentiment analysis}
 \item{dataframe}{a compatible dataframe that just neesd cleaning applied}
 }
 \value{
-a cleaned dataframe, with comments removed of stop words, and other unwanted data
+a cleaned dataframe, 3 columns
 }
 \description{
 reddit_clean_dataframe()

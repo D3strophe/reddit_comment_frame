@@ -8,9 +8,12 @@ Gather unclean reddit comments}
 \item{input_url}{string url of comment thread}
 }
 \value{
-A raw dataframe with no data wrangling
+A raw dataframe, with comments, timestamp, and upvote score
 }
 \description{
 reddit_raw_dataframe()
 Gather unclean reddit comments
+}
+\examples{
+reddit_raw_dataframe("https://www.reddit.com/r/funny/comments/7mjw12/my_cab_driver_tonight_was_so_excited_to_share/")
 }
